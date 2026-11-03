@@ -6,6 +6,17 @@ If you have forked this template, see the **Upgrading** section at the bottom fo
 
 ---
 
+## Unreleased
+
+### Changed — model refresh (2026-11-03)
+
+- `model-versions.md` re-verified against the Anthropic models overview: current lineup is
+  Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5. Fable 5 / Opus 5 / Sonnet 5 / Haiku 4.5 move to
+  prior generations. Alias resolution, fast-mode pricing and Claude Code minimum versions are
+  marked unverified rather than carried over. New expiry: 2027-01-02.
+- README, workflow guide and `model-routing.md` now name the Fable and Haiku tiers abstractly
+  instead of a point version, so they cannot go stale.
+
 ## v2.5.1 — 2026-08-24
 
 An **enforcement release.** Disciplines that had been working conventions in the owner's
